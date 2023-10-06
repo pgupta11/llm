@@ -1,0 +1,74 @@
+[
+    {
+        "question": "What is the purpose of Flux Balance Analysis (FBA) models?",
+        "answer": "The purpose of Flux Balance Analysis (FBA) models is to predict the metabolic behavior of an organism by quantifying the flow of metabolites through its metabolic network. FBA models are used to study and understand cellular metabolism, particularly in the context of predicting the growth rate or biomass yield of an organism under different conditions. By accounting for the stoichiometry of reactions and the constraints imposed by the availability of nutrients, FBA models can simulate the distribution of fluxes through metabolic pathways and identify optimal metabolic states that maximize the production of desired metabolites or biomass. FBA models are valuable tools in systems biology and can be used to guide metabolic engineering efforts, optimize bioprocesses, and explore the metabolic capabilities of organisms."
+    },
+    {
+        "question": "What file formats can be used to upload FBA models into KBase?",
+        "answer": "Flux Balance Analysis (FBA) models can be uploaded into KBase using three different file formats. These formats include:\n\n1. Systems Biology Markup Language (SBML): FBA models can be uploaded as SBML files with either the .sbml or .xml file extension. SBML is a standard format for representing computational models in systems biology.\n\n2. Excel: FBA models can also be uploaded as Excel files with the .xls extension. This allows users to create and edit FBA models using spreadsheet software.\n\n3. Tab-separated values (TSV): FBA models can be uploaded as TSV files with the .tsv extension. When using the TSV format, there will be two separate files corresponding to chemical compounds and reactions.\n\nIt is important to note that when uploading an FBA model in the TSV format, the model should be formatted correctly with the appropriate columns and data.\n\nIn summary, FBA models can be uploaded into KBase using SBML, Excel, or TSV file formats, providing users with flexibility in creating and importing their models."
+    },
+    {
+        "question": "How many files are required when uploading an FBA model in the TSV format?",
+        "answer": "When uploading an FBA model in the TSV format, there will be two files required. These files correspond to the chemical compounds and reactions in the model."
+    },
+    {
+        "question": "Where can additional SBML FBA Models for various organisms be found?",
+        "answer": "Additional SBML FBA Models for various organisms can be found at the following website: http://systemsbiology.ucsd.edu/Downloads."
+    },
+    {
+        "question": "What is the recommended file format for creating a COBRA-compliant SBML file?",
+        "answer": "The recommended file format for creating a COBRA-compliant SBML file is the Systems Biology Markup Language (SBML). SBML files can be uploaded into KBase as an FBA model. The SBML file can have either the .sbml or .xml file extension. To create a COBRA-compliant SBML file, you can refer to the SBML Level Three Specifications. Additionally, you can find more SBML FBA models for various organisms at the following link: http://systemsbiology.ucsd.edu/Downloads."
+    },
+    {
+        "question": "Where can the SBML Level Three Specifications be found?",
+        "answer": "The SBML Level Three Specifications can be found at the following location:\n\nhttp://sbml.org/Documents/Specifications"
+    },
+    {
+        "question": "What file extension is used for Excel files when uploading FBA models?",
+        "answer": "The file extension used for Excel files when uploading Flux Balance Analysis (FBA) models is .xls."
+    },
+    {
+        "question": "In the Excel format, where are the tables containing information about chemical compounds and reactions stored?",
+        "answer": "In the Excel format, the tables containing information about chemical compounds and reactions are stored in two separate tabs. The tab for chemical compounds is named \"ModelCompounds\" and the tab for reactions is named \"ModelReactions.\""
+    },
+    {
+        "question": "What are the required names for the tabs in the Excel file?",
+        "answer": "The required names for the tabs in the Excel file are \"ModelCompounds\" and \"ModelReactions\"."
+    },
+    {
+        "question": "In the TSV format, how are the chemical compounds and reactions tables saved?",
+        "answer": "In the TSV (Tab-Separated Values) file format, the chemical compounds and reactions tables are saved as two separate files. The chemical compounds table is saved as \"FBAModelCompounds.tsv\" and the reactions table is saved as \"FBAModelReactions.tsv\". These files contain tab-separated values, where each row represents a compound or reaction, and each column represents a specific attribute or property of the compound or reaction. The compounds table includes attributes such as id, name, formula, charge, and aliases, while the reactions table likely contains different attributes specific to reactions."
+    },
+    {
+        "question": "What are the names of the files for the chemical compounds and reactions in the TSV format?",
+        "answer": "In the TSV format, the chemical compounds table is saved as a file named \"FBAModelCompounds.tsv\" and the reactions table is saved as a file named \"FBAModelReactions.tsv\"."
+    },
+    {
+        "question": "What are the columns present in the \"FBAModelCompounds\" table?",
+        "answer": "The \"FBAModelCompounds\" table contains the following columns:\n\n1. id: This column represents the compound identifier, which is a unique identifier for each compound in the table. It is used to reference the compound in other tables or models.\n\n2. name: This column stores the name of the chemical compound. It provides a human-readable description of the compound.\n\n3. formula: This column contains the chemical formula of the compound. The formula is represented using the Hill system, which is a widely used system for representing chemical formulas.\n\n4. charge: The charge column represents the formal charge of the molecule. It indicates the electrical charge of the compound, which can be positive, negative, or neutral.\n\n5. aliases: This column stores alternative names or aliases for the chemical compound. It provides additional names that can be used to refer to the compound.\n\nPlease note that this information is based on the given text and may not include all possible columns in the \"FBAModelCompounds\" table."
+    },
+    {
+        "question": "What is the purpose of the \"id\" column in the \"FBAModelCompounds\" table?",
+        "answer": "The \"id\" column in the \"FBAModelCompounds\" table serves as a unique identifier for each chemical compound listed in the table. It is used to uniquely identify and reference a specific compound within the FBA model. The \"id\" column allows for easy and unambiguous identification of compounds, which is crucial for performing various calculations and analyses in the FBA model."
+    },
+    {
+        "question": "What is the purpose of the \"name\" column in the \"FBAModelCompounds\" table?",
+        "answer": "The \"name\" column in the \"FBAModelCompounds\" table serves the purpose of storing the name of the chemical compound. It provides a human-readable identifier for each compound listed in the table. The names in this column are typically used to refer to the compounds in various analyses, calculations, and modeling processes."
+    },
+    {
+        "question": "What is the purpose of the \"formula\" column in the \"FBAModelCompounds\" table?",
+        "answer": "The \"formula\" column in the \"FBAModelCompounds\" table serves the purpose of providing the chemical formula of each compound. The chemical formula represents the types and numbers of atoms present in a molecule. In this table, the formula is written using the Hill system, which is a widely used method for representing chemical formulas. The formula column helps in identifying and understanding the composition of each compound in the FBA model."
+    },
+    {
+        "question": "What is the purpose of the \"charge\" column in the \"FBAModelCompounds\" table?",
+        "answer": "The \"charge\" column in the \"FBAModelCompounds\" table serves the purpose of indicating the formal charge of the chemical compounds. It provides information about the electrical charge of the molecule, which is an important characteristic in understanding its behavior and interactions in chemical reactions. The charge can be positive, negative, or neutral, and it influences the compound's reactivity and participation in metabolic pathways."
+    },
+    {
+        "question": "What is the purpose of the \"aliases\" column in the \"FBAModelCompounds\" table?",
+        "answer": "The \"aliases\" column in the \"FBAModelCompounds\" table serves the purpose of providing alternative names for the chemical compounds listed in the table. These aliases are additional names or labels that can be used to refer to the compounds. They can be useful in cases where a compound may have multiple names or when different naming conventions are used in different contexts. The aliases column allows for better identification and referencing of the compounds, providing flexibility and accommodating different naming conventions or variations in compound names."
+    },
+    {
+        "question": "What is the name of the table for the model reactions in the TSV format?",
+        "answer": "In the TSV format, the table for the model reactions is named \"FBAModelReactions.tsv\"."
+    }
+]
