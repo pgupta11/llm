@@ -1,0 +1,5 @@
+*.json
+Nemo
+wandb
+results
+node_modules
